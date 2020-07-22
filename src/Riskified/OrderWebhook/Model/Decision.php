@@ -24,6 +24,7 @@ class Decision extends AbstractModel {
     protected $_fields = array(
         'id' => 'string',
         'decision' => 'object \DecisionDetails',
+        'gateway' => 'string',
         'payment_details' => 'object \PaymentDetails optional'
     );
 }
